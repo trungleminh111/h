@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                OrangesFood
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal"
+                        data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span
+                            class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span
+                            class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special food</span>
+                        <h3>bring nutrition</h3>
+                        <p>The fiber travels to the colon and promotes the growth of beneficial bacteria. It also helps
+                            the body absorb other beneficial compounds. Some studies suggest this may be the reason why
+                            apples can fight obesity, type 2 diabetes and heart disease.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/taouc.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <!-- category section starts  -->
+    <div class="container">
+
+        <h1>Shopping Cart</h1>
+
+        <div class="cart">
+
+            <div class="products">
+
+                <div class="product1">
+
+                    <img src="./images/blue grapes.png">
+
+                    <div class="product1-info">
+
+                        <h3 class="product1-name">New Shoes</h3>
+
+                        <h4 class="product1-price">₹ 1,000</h4>
+
+                        <h4 class="product1-offer">50%</h4>
+
+                        <p class="product1-quantity">Qnt: <input value="1" name="">
+
+                        <p class="product1-remove">
+
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+
+                            <span class="remove">Remove</span>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="product1">
+
+                    <img src="./images/capsicum.png">
+
+                    <div class="product1-info">
+
+                        <h3 class="product1-name">New Bag</h3>
+
+                        <h4 class="product1-price">₹ 2,000</h4>
+
+                        <h4 class="product1-offer">40%</h4>
+
+                        <p class="product1-quantity">Qnt: <input value="1" name="">
+
+                        <p class="product1-remove">
+
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+
+                            <span class="remove">Remove</span>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="cart-total">
+
+                <p>
+
+                    <span>Total Price</span>
+
+                    <span>₹ 3,000</span>
+
+                </p>
+
+                <p>
+
+                    <span>Number of Items</span>
+
+                    <span>2</span>
+
+                </p>
+
+                <p>
+
+                    <span>You Save</span>
+
+                    <span>₹ 1,000</span>
+
+                </p>
+
+                <a href="#">Proceed to Checkout</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">russia</a>
+                <a href="#">USA</a>
+
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">trang chủ</a>
+                <a href="#">giới thiệu</a>
+                <a href="#">dịch vụ</a>
+                <a href="#">liên hệ</a>
+
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">shaikhanas@gmail.com</a>
+                <a href="#">anasbhai@gmail.com</a>
+                <a href="#">mumbai, india - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2021 by <span>mr. web designer</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/card.css">
+
+    <link rel="stylesheet" href="./css/cart.css">
+</head>
+
+<body>
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row mb-5">
+                <form class="col-md-12" method="post">
+                    <div class="site-blocks-table">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="product-thumbnail">Image</th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-total">Total</th>
+                                    <th class="product-remove">Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="product-thumbnail">
+                                        <img src="images/cloth_1.jpg" alt="Image" class="img-fluid">
+                                    </td>
+                                    <td class="product-name">
+                                        <h2 class="h5 text-black">Top Up T-Shirt</h2>
+                                    </td>
+                                    <td>$49.00</td>
+                                    <td>
+                                        <div class="input-group mb-3" style="max-width: 120px;">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-primary js-btn-minus"
+                                                    type="button">&minus;</button>
+                                            </div>
+                                            <input type="text" class="form-control text-center" value="1" placeholder=""
+                                                aria-label="Example text with button addon"
+                                                aria-describedby="button-addon1">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-primary js-btn-plus"
+                                                    type="button">&plus;</button>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td>$49.00</td>
+                                    <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="product-thumbnail">
+                                        <img src="images/cloth_2.jpg" alt="Image" class="img-fluid">
+                                    </td>
+                                    <td class="product-name">
+                                        <h2 class="h5 text-black">Polo Shirt</h2>
+                                    </td>
+                                    <td>$49.00</td>
+                                    <td>
+                                        <div class="input-group mb-3" style="max-width: 120px;">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-primary js-btn-minus"
+                                                    type="button">&minus;</button>
+                                            </div>
+                                            <input type="text" class="form-control text-center" value="1" placeholder=""
+                                                aria-label="Example text with button addon"
+                                                aria-describedby="button-addon1">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-primary js-btn-plus"
+                                                    type="button">&plus;</button>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                    <td>$49.00</td>
+                                    <td><a href="#" class="btn btn-primary height-auto btn-sm">X</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row mb-5">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <button class="btn btn-primary btn-sm btn-block">Update Cart</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-outline-primary btn-sm btn-block">Continue Shopping</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="text-black h4" for="coupon">Coupon</label>
+                            <p>Enter your coupon code if you have one.</p>
+                        </div>
+                        <div class="col-md-8 mb-3 mb-md-0">
+                            <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-primary btn-sm px-4">Apply Coupon</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pl-5">
+                    <div class="row justify-content-end">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-12 text-right border-bottom mb-5">
+                                    <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <span class="text-black">Subtotal</span>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <strong class="text-black">$230.00</strong>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-6">
+                                    <span class="text-black">Total</span>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <strong class="text-black">$230.00</strong>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-primary btn-lg btn-block"
+                                        onclick="window.location='checkout.html'">Proceed To Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html> -->
